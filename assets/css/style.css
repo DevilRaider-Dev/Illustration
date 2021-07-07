@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../fonts/Merriweather-Regular.ttf');
+}
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.ttf');
+}
+/* --- default --- */
+body{
+    font-family: Merriweather;
+    color: #202020;
+}
+a{
+    font-family: Lato;
+    color: #202020;
+    text-decoration: none;
+}
+h1{
+    color: #202020;
+    font-size: 2.5em;
+}
+p{
+    color: #202020;
+    line-height: 200%;
+}
+/* --- nav --- */
+nav ul{
+    list-style: none;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 2%;
+    font-size: 90%;
+}
+/* --- journey --- */
+#journey > section{
+    margin-bottom: 5%;
+}
+#journey > section > article{
+    width: 50%;
+    float: left;
+    margin: auto 10%;
+    padding: auto 80%;
+}
+#journey > section:nth-of-type(2) > article{
+    float: right;
+}
+#journey > section > article a:first-of-type{
+    background-color: #202020;
+    color: #fff;
+    border-radius: 5px;
+    padding: 2% 3%;
+    margin-right: 2%;
+}
+#journey > section > article a:last-of-type{
+    background-color:  #fff;
+    color: #202020;
+    box-shadow: 0 0 3px #202020;
+    border-radius: 5px;
+    padding: 2% 3%;
+}
+#journey > section > img{
+    display: block;
+    width: 30%;
+}
+/* --- application --- */
+#application{
+    text-align: center;
+}
+#application article{
+    margin: auto 20%;
+}
+#application section{
+    display: inline-block;
+}
+#application section img{
+    margin: 5% 0;
+    width: 25%;
+}
+#application section img:hover{
+    box-shadow: 0 0 2px #202020;
+}
+/* --- example --- */
+#example{
+    text-align: center;
+}
+#example article{
+    margin:auto 20%
+}
+#example section img{
+    display: block;
+    float: left;
+    width: 40%;
+    margin: 5%;
+}
+#example section img:hover{
+    box-shadow: 0 0 2px #202020;
+}
+/* --- download --- */
+#download{
+    text-align: center;
+}
+#download article{
+    margin: auto 20%;
+}
+#download section{
+    background-color: #F5FBFE;
+    width: 30%;
+    text-align: center;
+    margin: 2% auto;
+    padding: 5% 0;
+}
+#download section p{
+    line-height: 50%;
+}
+#download section p:first-of-type{
+    line-height: 200%;
+    color: grey;
+}
+#download section p:last-of-type{
+    padding-bottom: 5%;
+}
+#download section a{
+    background-color: #24bff2;
+    padding: 3% 15%;
+    border-radius: 5px;
+}
+
+/* --- suggestion --- */
+#suggestion{
+    text-align: center;
+}
+#suggestion h1{
+    margin-bottom: 5%;
+}
+#suggestion p{
+    color: grey;
+}
+#suggestion section img{
+    width: 3%;
+    margin: .5%;
+}
